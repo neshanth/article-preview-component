@@ -1,0 +1,8 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+.article-body {
+  font-size: 13px;
+}
