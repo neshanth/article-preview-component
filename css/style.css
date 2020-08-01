@@ -1,8 +1,48 @@
 body {
   font-family: 'Manrope', sans-serif;
+  font-size: 13px;
   background-color: hsl(210, 46%, 95%);
 }
 
+.article-title {
+  color: hsl(214, 17%, 51%);
+  font-weight: 700;
+}
+
+.article-image {
+  object-fit: cover;
+  width: 100%;
+}
+
 .article-body {
-  font-size: 13px;
+  line-height: 1.6;
+  color: hsl(212, 23%, 69%);
+  font-weight: 700;
+}
+
+.article-container {
+  background-color: white;
+  padding: 1em;
+}
+
+/* article  details */
+
+.article-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-author-image {
+  width: 15%;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+.article-author {
+  margin-bottom: 0;
+}
+
+.article-date {
+  margin-top: 0;
 }
