@@ -46,6 +46,7 @@ body {
   margin: 0 auto;
   padding: 1em 0;
 
+
 }
 
 /* End of Layouts */
@@ -80,6 +81,27 @@ body {
 
 .author-details {
   margin: 0 7em 0 1.5em;
+}
+
+
+
+.share-icon:hover {
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.share-icon {
+  margin-top: 0.2em;
+}
+
+.social-icons {
+  background: hsl(214, 17%, 51%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  display: none;
+  border-radius: 10px;
 }
 
 /* media queries */
