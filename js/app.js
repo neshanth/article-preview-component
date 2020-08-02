@@ -3,11 +3,9 @@ let articleDetails = document.querySelectorAll('.article-details');
 let socialIcons = document.querySelectorAll('.social-icons');
 let articleContainer = document.querySelector('.article-container');
 
-
-
-
-
 document.addEventListener('click',function(e){
+
+  //Hide the author details and display the social icons
   if(e.target.id === 'share' || e.target.id === 'icon')
   {
     articleDetails[0].innerHTML = "";
@@ -37,6 +35,7 @@ document.addEventListener('click',function(e){
 
   else
   {
+    //Hide social icons and display the article details
     socialIcons[0].style.display = "none";
     articleDetails[0].innerHTML = `<img src="images/avatar-michelle.jpg" class="article-author-image">
     <div class="author-details">

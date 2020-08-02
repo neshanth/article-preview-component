@@ -83,8 +83,9 @@ body {
   margin: 0 7em 0 1.5em;
 }
 
+/* End of article details */
 
-
+/* Share-icons */
 .share-icon:hover {
   cursor: pointer;
   margin-top: 0.5em;
@@ -103,6 +104,8 @@ body {
   display: none;
   border-radius: 10px;
 }
+
+/* End of share icons */
 
 /* media queries */
 
